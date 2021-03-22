@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Covid App</string>
+
+    <!--Page On Boarding -->
+    <string name="lbl_onboarding_title1">Memakai Masker</string>
+    <string name="lbl_onboarding_title2">Tidur Teratur</string>
+    <string name="lbl_onboarding_title3">Olahraga &amp; Berjemur</string>
+    <string name="lbl_onboarding_desc1">Memakai masker, menjaga kebersihan serta menjaga jarak adalah salah satu tindak preventif pencegahan covid 19</string>
+    <string name="lbl_onboarding_desc2">Dalam satu penelitian, para peneliti menemukan orang yang kurang tidur dari enam jam semalam, berpeluang 4,2 kali lebih tinggi terkena flu dibandingkan dengan mereka yang tidur lebih dari tujuh jam.</string>
+    <string name="lbl_onboarding_desc3">Berjemur di bawah sinar matahari dapat Meningkatkan sistem kekebalan tubuh. Kandungan vitamin D yang terbentuk akibat paparan sinar matahari dapat membantu mencegah infeksi  dan melawan penyakit</string>
+    <string name="lbl_skip">Skip</string>
+
+</resources>

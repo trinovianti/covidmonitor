@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/bag"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="4dp"
+        card_view:cardMaxElevation="5dp">
+        <LinearLayout
+            android:id="@+id/ll_report"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:id="@+id/titleMessage"
+                android:gravity="center"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/dark_greys"
+                android:textAlignment="center"
+                android:scaleType="fitCenter" />
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:gravity="center"
+                android:background="@color/light_green"
+                android:text=""
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:scaleType="fitCenter"
+                android:layout_below="@+id/titleMessage"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/text_dialog"
+                android:layout_below="@+id/titleMessage"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="15sp"
+                android:textColor="#414041"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:layout_below="@+id/text_dialog"
+                android:layout_marginTop="15dp"
+                >
+
+                <Button
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn_Yes"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_solid"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:text="Yes"/>
+
+                <Button
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn_No"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_border"
+                    android:textColor="@color/dark_greys"
+                    android:textAllCaps="false"
+                    android:text="No"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>
