@@ -19,7 +19,4 @@ $ git clone https://github.com/daliworks/android-sample-app.git
 
 # Sample Application
 
-<img src="./app/sampledata/screenshoot1.jpg" width="24%" height="24%"/>       
-<img src="./app/sampledata/screenshoot2.jpg" width="24%" height="24%"/>      
-<img src="./app/sampledata/screenshoot3.jpg" width="24%" height="24%"/>      
-<img src="./app/sampledata/screenshoot4.jpg" width="24%" height="24%"/>
+<img src="./app/sampledata/screenshoot1.jpg" width="24%" height="24%"/><img src="./app/sampledata/screenshoot2.jpg" width="24%" height="24%"/>  <img src="./app/sampledata/screenshoot3.jpg" width="24%" height="24%"/>  <img src="./app/sampledata/screenshoot4.jpg" width="24%" height="24%"/>
